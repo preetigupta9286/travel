@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.142932">
+    <testcase classname="Travel Medicare signup page Features" name="User is able to create a new account Scenario" time="0.142101">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)&#13;&#10;&#9;at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)&#13;&#10;">
+            <![CDATA[When url of become an agent page is https://www.travelmedicare.com/register.failed
+Then user enter valid first name is "preeti"................................skipped
+Then enter valid last name is "gupta".......................................skipped
+Then enter valid email for signup is "email@gmail.com"......................skipped
+Then enter valid password is "123456".......................................skipped
+Then enter valid confirm password is "123456"...............................skipped
+Then check the box i agree to website.......................................skipped
+Then quit the browser.......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)
+	at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Travel Medicare signup page Features" name="User is able to create a new account Scenario 2" time="0.000235">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)&#13;&#10;&#9;at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)&#13;&#10;">
+            <![CDATA[When url of become an agent page is https://www.travelmedicare.com/register.failed
+Then user enter valid first name is "surbhi"................................skipped
+Then enter valid last name is "gupta".......................................skipped
+Then enter valid email for signup is "email1@gmail.com".....................skipped
+Then enter valid password is "123456".......................................skipped
+Then enter valid confirm password is "123456"...............................skipped
+Then check the box i agree to website.......................................skipped
+Then quit the browser.......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)
+	at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Travel Medicare signup page Features" name="User is able to create a new account Scenario 3" time="0.000229">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)&#13;&#10;&#9;at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)&#13;&#10;">
+            <![CDATA[When url of become an agent page is https://www.travelmedicare.com/register.failed
+Then user enter valid first name is "vivek".................................skipped
+Then enter valid last name is "garg"........................................skipped
+Then enter valid email for signup is "email2@gmail.com".....................skipped
+Then enter valid password is "123456".......................................skipped
+Then enter valid confirm password is "123456"...............................skipped
+Then check the box i agree to website.......................................skipped
+Then quit the browser.......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)
+	at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Travel Medicare signup page Features" name="User is able to create a new account Scenario 4" time="0.000367">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)&#13;&#10;&#9;at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)&#13;&#10;">
+            <![CDATA[When url of become an agent page is https://www.travelmedicare.com/register.failed
+Then user enter valid first name is "vick"..................................skipped
+Then enter valid last name is "aggarwal"....................................skipped
+Then enter valid email for signup is "email3@gmail.com".....................skipped
+Then enter valid password is "123456".......................................skipped
+Then enter valid confirm password is "123456"...............................skipped
+Then check the box i agree to website.......................................skipped
+Then quit the browser.......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)
+	at ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,592 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "User is able to create a new account Scenario",
+        "description": "\r\nGiven: User is already on become an agent page",
+        "id": "travel-medicare-signup-page-features;user-is-able-to-create-a-new-account-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 142100900,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)\r\n\tat ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "url of become an agent page is https://www.travelmedicare.com/register",
+            "match": {
+              "location": "signupStepDefinition.valid_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid first name is \"preeti\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "preeti",
+                  "offset": 32
+                }
+              ],
+              "location": "signupStepDefinition.valid_firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "enter valid last name is \"gupta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gupta",
+                  "offset": 26
+                }
+              ],
+              "location": "signupStepDefinition.valid_lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "enter valid email for signup is \"email@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email@gmail.com",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter valid password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                }
+              ],
+              "location": "signupStepDefinition.valid_password(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enter valid confirm password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_conpassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check the box i agree to website",
+            "match": {
+              "location": "signupStepDefinition.checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "quit the browser",
+            "match": {
+              "location": "signupStepDefinition.Close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "User is able to create a new account Scenario",
+        "description": "\r\nGiven: User is already on become an agent page",
+        "id": "travel-medicare-signup-page-features;user-is-able-to-create-a-new-account-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 234600,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)\r\n\tat ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "url of become an agent page is https://www.travelmedicare.com/register",
+            "match": {
+              "location": "signupStepDefinition.valid_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid first name is \"surbhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "surbhi",
+                  "offset": 32
+                }
+              ],
+              "location": "signupStepDefinition.valid_firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "enter valid last name is \"gupta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gupta",
+                  "offset": 26
+                }
+              ],
+              "location": "signupStepDefinition.valid_lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "enter valid email for signup is \"email1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email1@gmail.com",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter valid password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                }
+              ],
+              "location": "signupStepDefinition.valid_password(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enter valid confirm password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_conpassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check the box i agree to website",
+            "match": {
+              "location": "signupStepDefinition.checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "quit the browser",
+            "match": {
+              "location": "signupStepDefinition.Close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "User is able to create a new account Scenario",
+        "description": "\r\nGiven: User is already on become an agent page",
+        "id": "travel-medicare-signup-page-features;user-is-able-to-create-a-new-account-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 228900,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)\r\n\tat ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "url of become an agent page is https://www.travelmedicare.com/register",
+            "match": {
+              "location": "signupStepDefinition.valid_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid first name is \"vivek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vivek",
+                  "offset": 32
+                }
+              ],
+              "location": "signupStepDefinition.valid_firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "enter valid last name is \"garg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "garg",
+                  "offset": 26
+                }
+              ],
+              "location": "signupStepDefinition.valid_lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "enter valid email for signup is \"email2@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email2@gmail.com",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter valid password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                }
+              ],
+              "location": "signupStepDefinition.valid_password(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enter valid confirm password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_conpassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check the box i agree to website",
+            "match": {
+              "location": "signupStepDefinition.checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "quit the browser",
+            "match": {
+              "location": "signupStepDefinition.Close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "User is able to create a new account Scenario",
+        "description": "\r\nGiven: User is already on become an agent page",
+        "id": "travel-medicare-signup-page-features;user-is-able-to-create-a-new-account-scenario;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 366700,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitionforSignup.signupStepDefinition.valid_url(signupStepDefinition.java:27)\r\n\tat ✽.When url of become an agent page is https://www.travelmedicare.com/register(C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "url of become an agent page is https://www.travelmedicare.com/register",
+            "match": {
+              "location": "signupStepDefinition.valid_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid first name is \"vick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vick",
+                  "offset": 32
+                }
+              ],
+              "location": "signupStepDefinition.valid_firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "enter valid last name is \"aggarwal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aggarwal",
+                  "offset": 26
+                }
+              ],
+              "location": "signupStepDefinition.valid_lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "enter valid email for signup is \"email3@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email3@gmail.com",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter valid password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                }
+              ],
+              "location": "signupStepDefinition.valid_password(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enter valid confirm password is \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 33
+                }
+              ],
+              "location": "signupStepDefinition.valid_conpassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check the box i agree to website",
+            "match": {
+              "location": "signupStepDefinition.checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "quit the browser",
+            "match": {
+              "location": "signupStepDefinition.Close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Travel Medicare signup page Features",
+    "description": "",
+    "id": "travel-medicare-signup-page-features",
+    "keyword": "Feature",
+    "uri": "C:/Users/surbh/eclipse-workspace/cucumberSel/src/main/java/features/signUp.feature"
+  }
+]
